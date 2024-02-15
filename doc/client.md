@@ -18,6 +18,9 @@ The following parameters are configurable for the API Client:
 The API client can be initialized as follows:
 
 ```python
+from apimaticcalculator.apimaticcalculator_client import ApimaticcalculatorClient
+from apimaticcalculator.configuration import Environment
+
 client = ApimaticcalculatorClient()
 ```
 

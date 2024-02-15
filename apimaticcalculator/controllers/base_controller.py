@@ -44,7 +44,8 @@ class BaseController(object):
         }
 
     def __init__(self, config):
-        self._config = config.get_http_client_configuration()
+        self._global_config = config
+        self._config = self._global_config.get_http_client_configuration()
         self._http_call_back = self.config.http_callback
         self.api_call = ApiCall(config)
 
@@ -59,3 +60,4 @@ class BaseController(object):
     @property
     def new_api_call_builder(self):
         return self.api_call.new_builder
+
