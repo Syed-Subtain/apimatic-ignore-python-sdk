@@ -1,6 +1,6 @@
 __all__ = [
     'api_helper',
-    'apimaticcalculator_client',
+    'apimaticcalcu_client',
     'configuration',
     'controllers',
     'exceptions',
