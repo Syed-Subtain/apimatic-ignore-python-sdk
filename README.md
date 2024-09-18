@@ -11,15 +11,15 @@ The package is compatible with Python versions `3 >=3.7, <= 3.11`.
 Install the package from PyPi using the following pip command:
 
 ```python
-pip install apimatic-ignore-sdk==9.8.7
+pip install apimatic-ignore-sdk==3.6.54
 ```
 
 You can also view the package at:
-https://pypi.python.org/pypi/apimatic-ignore-sdk/9.8.7
+https://pypi.python.org/pypi/apimatic-ignore-sdk/3.6.54
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/9.8.7/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/3.6.54/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -45,11 +45,11 @@ client = ApimaticcalculatorClient(
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/9.8.7/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/3.6.54/doc/controllers/simple-calculator.md)
 
 ## Classes Documentation
 
-* [Utility Classes](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/9.8.7/doc/utility-classes.md)
-* [HttpResponse](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/9.8.7/doc/http-response.md)
-* [HttpRequest](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/9.8.7/doc/http-request.md)
+* [Utility Classes](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/3.6.54/doc/utility-classes.md)
+* [HttpResponse](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/3.6.54/doc/http-response.md)
+* [HttpRequest](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/3.6.54/doc/http-request.md)
 
