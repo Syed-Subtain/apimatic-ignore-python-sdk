@@ -1,5 +1,5 @@
 
-# Getting Started with APIMATIC Calculator
+# Getting Started with Apimatic CALCULATOR
 
 ## Introduction
 
@@ -11,21 +11,21 @@ The package is compatible with Python versions `3 >=3.7, <= 3.11`.
 Install the package from PyPi using the following pip command:
 
 ```python
-pip install apimatic-ignore-sdk==3.4.89
+pip install apimatic-ignore-sdk==1.1.89
 ```
 
 You can also view the package at:
-https://pypi.python.org/pypi/apimatic-ignore-sdk/3.4.89
+https://pypi.python.org/pypi/apimatic-ignore-sdk/1.1.89
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/3.4.89/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/1.1.89/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
-| `environment` | Environment | The API environment. <br> **Default: `Environment.PRODUCTION`** |
+| `environment` | `Environment` | The API environment. <br> **Default: `Environment.PRODUCTION`** |
 | `http_client_instance` | `HttpClient` | The Http Client passed from the sdk user for making requests |
 | `override_http_client_configuration` | `bool` | The value which determines to override properties of the passed Http Client from the sdk user |
 | `http_call_back` | `HttpCallBack` | The callback value that is invoked before and after an HTTP call is made to an endpoint |
@@ -38,19 +38,18 @@ The following parameters are configurable for the API Client:
 The API client can be initialized as follows:
 
 ```python
-from apimaticcalculator.apimaticcalculator_client import ApimaticcalculatorClient
-from apimaticcalculator.configuration import Environment
-
-client = ApimaticcalculatorClient()
+client = ApimaticcalculatorClient(
+    environment=Environment.PRODUCTION
+)
 ```
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/3.4.89/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/1.1.89/doc/controllers/simple-calculator.md)
 
 ## Classes Documentation
 
-* [Utility Classes](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/3.4.89/doc/utility-classes.md)
-* [HttpResponse](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/3.4.89/doc/http-response.md)
-* [HttpRequest](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/3.4.89/doc/http-request.md)
+* [Utility Classes](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/1.1.89/doc/utility-classes.md)
+* [HttpResponse](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/1.1.89/doc/http-response.md)
+* [HttpRequest](https://www.github.com/Syed-Subtain/apimatic-ignore-python-sdk/tree/1.1.89/doc/http-request.md)
 
