@@ -11,5 +11,5 @@ Http response received.
 | reason_phrase | str | The reason phrase returned by the server. |
 | headers | dict | Response headers. |
 | text | str | Response body. |
-| request | [`HttpRequest`](http-request.md) | The request that resulted in this response. |
+| request | [`HttpRequest`](../doc/http-request.md) | The request that resulted in this response. |
 
